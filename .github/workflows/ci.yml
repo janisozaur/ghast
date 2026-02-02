@@ -33,7 +33,7 @@ jobs:
             # If false, the downloaded artifacts will be extracted into individual named directories within the specified path.
             # Note: When downloading a single artifact (by name or ID), it will always be extracted directly to the specified path.
             # Optional. Default is 'false'
-            merge-multiple: true
+            merge-multiple: false
 
             # The GitHub token used to authenticate with the GitHub API.
             # This is required when downloading artifacts from a different repository or from a different workflow run.
