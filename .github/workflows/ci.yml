@@ -49,3 +49,7 @@ jobs:
             # If github-token is specified, this is the run that artifacts will be downloaded from.
             # Optional. Default is ${{ github.run_id }}
             run-id: 21565272977
+        - name: List files
+          run: ls -laR
+        - name: checksums
+          run: sha256sum *
